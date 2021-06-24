@@ -54,7 +54,6 @@ void HashTable::deleteItem(int key, string value){
 			break;
 		};
 	};
-	
 };
 
 int main(){
