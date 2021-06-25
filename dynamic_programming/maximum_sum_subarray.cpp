@@ -17,5 +17,5 @@ int maximumSumSubarray(vector<int> array){
 		counter = i >= counter+i ?  i : counter +i;
 		maximum = maximum > counter ? maximum : counter;
 	};
-	return counter;
+	return maximum;
 }
