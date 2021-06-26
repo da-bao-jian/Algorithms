@@ -43,7 +43,7 @@ class minHeap{
 			}
 		};
 
-		void siftUp(int currentIdx, vector<int> &heap){
+		void siftUp(int currentIdx){
 			int parentIdx = currentIdx-1/2;
 			while(parentIdx >= 0 && heap[currentIdx] < heap[parentIdx]){
 				swap(heap[parentIdx], heap[currentIdx]);
